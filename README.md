@@ -4,22 +4,22 @@ Edit markdown files and see the results in brackets' live preview
 
 ### Install
 
-1. Install the extension
+* Install the extension
 
-* [Download the Zip](https://github.com/bengarnett/brackets-markdown-live-preview/archive/master.zip) and unzip it; or clone this repo on GitHub.
-* From Brackets, choose _Help > Show Extensions Folder_. This will open the extensions folder.
-* Drag the unzipped (or cloned) folder into the `user` directory.
-* Reload Brackets.
+	- [Download the Zip](https://github.com/bengarnett/brackets-markdown-live-preview/archive/master.zip) and unzip it; or clone this repo on GitHub.
+	- From Brackets, choose _Help > Show Extensions Folder_. This will open the extensions folder.
+	- Drag the unzipped (or cloned) folder into the `user` directory.
+	- Reload Brackets.
 
-2. Modify Brackets (add a couple lines of code)
+* Modify Brackets (add a couple lines of code)
 
-* Note. I plan to remove this set in the future, but at the current time, this was the easiest way to make it work
-* Edit "Brackets Sprint 19\www\LiveDevelopment\LiveDevelopment.js" around live 194 adding the below if statement
+	- Note. I plan to remove this set in the future, but at the current time, this was the easiest way to make it work
+	- Edit "Brackets Sprint 19\www\LiveDevelopment\LiveDevelopment.js" around live 194 adding the below if statement
 
-		// TODO: Issue #2033 Improve how default page is determined
-		if (exports.config.liveUrlExtMap && exports.config.liveUrlExtMap[doc.extension]) {
-			parentUrl = exports.config.liveUrlExtMap[doc.extension];
-		}
+			// TODO: Issue #2033 Improve how default page is determined
+			if (exports.config.liveUrlExtMap && exports.config.liveUrlExtMap[doc.extension]) {
+				parentUrl = exports.config.liveUrlExtMap[doc.extension];
+			}
 
 ### Usage
 
