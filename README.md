@@ -1,3 +1,6 @@
+# This code is obsolete and no longer works since it was developed against sprint 17
+
+
 # brackets-markdown-live-preview
 
 Edit markdown files and see the results in brackets' live preview
