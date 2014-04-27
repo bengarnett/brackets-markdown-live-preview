@@ -1,5 +1,6 @@
 # This code is obsolete and no longer works since it was developed against sprint 17
 
+Try [gruehle/MarkdownPreview](https://github.com/gruehle/MarkdownPreview) instead.
 
 # brackets-markdown-live-preview
 
